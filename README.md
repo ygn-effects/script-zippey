@@ -6,7 +6,7 @@
 
 ## Description
 
-This repository illustrates the way Zippey is used across various repositories in the organization, allowing FreeCAD's `.FCStd` files to be processed by Git as plain text content.
+This repository illustrates the way Zippey is used across the organization, allowing FreeCAD's `.FCStd` files to be processed by Git as plain text content.
 
 If you clone this repository, you can see it in action by running the `test_script.sh`. It simulates a commit/checkout sequence and compares the resulting file to the original (there should be no difference, obviously). It doesn't require any arguments and can be run as follows:
 
