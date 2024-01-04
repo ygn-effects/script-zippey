@@ -8,7 +8,7 @@
 
 This repository illustrates the way Zippey is used across various repositories in the organization, allowing FreeCAD's `.FCStd` files to be processed by Git as plain text content.
 
-If you clone this repository you can see it in action by running the `test_script.sh`, it will simulate a commit/checkout sequence and compare the resulting file to the original (there should be no difference obviously). It doesn't requires any arguments and can be run as such :
+If you clone this repository, you can see it in action by running the `test_script.sh`. It simulates a commit/checkout sequence and compares the resulting file to the original (there should be no difference, obviously). It doesn't require any arguments and can be run as follows:
 
 ```bash
 .\test_script.sh
@@ -20,7 +20,7 @@ If you clone this repository you can see it in action by running the `test_scrip
 
 #### 1. Filter setup
 
-To work with an existing repository already using Zippey you must define the filter and diff attribute in git's setting file, either globally or per repository. This is necessary because otherwise git will retrieve uncompressed files that FreeCAD won't understand.
+To work with an existing repository already using Zippey, you must define the filter and diff attributes in Git's settings file, either globally or per repository. This is necessary because otherwise, Git will retrieve uncompressed files that FreeCAD won't understand.
 
 - Globally
 
@@ -48,7 +48,7 @@ The filter assumes that the script's location in the repo is `scripts/zippey/zip
 
 #### 2. Filter setup
 
-The filter can be defined in git's setting file, either globally or per repository.
+The filter can be defined in Git's settings file, either globally or per repository.
 
 - Globally
 
