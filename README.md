@@ -11,7 +11,7 @@ This repository illustrates the way Zippey is used across various repositories i
 If you clone this repository, you can see it in action by running the `test_script.sh`. It simulates a commit/checkout sequence and compares the resulting file to the original (there should be no difference, obviously). It doesn't require any arguments and can be run as follows:
 
 ```bash
-.\test_script.sh
+./test_script.sh
 ```
 
 ## Getting Started
